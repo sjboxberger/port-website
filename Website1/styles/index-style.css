@@ -17,7 +17,7 @@ header{
     padding: 1px;
     top: 0;
     left: 0;
-    min-width: 900px;
+    min-width: 920px;
     width: 100%;
     overflow: auto;
 }
@@ -57,7 +57,6 @@ nav li:active{
 }
 
 .welcome{
-    min-width: 900px;
     width: 100%;
     text-align: center;
     font-size: 15px;
@@ -65,7 +64,7 @@ nav li:active{
 
 
 /*Styling Project selection pane(s) */
-.project{
+/* .project{
     min-width: 900px;
     width: 100%;
     overflow: auto;
@@ -97,6 +96,42 @@ nav li:active{
 .project h3{
     font-size: 20px;
     padding: 8px;
+} */
+
+
+/*Styling body content using flex*/
+.project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-top: 1px solid hsl(0,0%,30%);
+}
+
+.thumbnail{
+    margin-right: 15px;
+}
+
+.thumbnail img{
+    max-width: 350px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.description{
+    max-width: 775px;
+    text-align: center;
+}
+.description h1{
+    font-size: 30px;
+    margin: 8px 0px;
+    text-decoration: underline;
+}
+.description p, h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 /*Footer Adjustments*/
