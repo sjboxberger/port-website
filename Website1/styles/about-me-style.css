@@ -1,0 +1,24 @@
+header{
+    position: sticky;
+    text-align: center;
+    border-bottom: 5px solid darkblue;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px;
+}
+
+nav li{
+    display: inline-block;
+    width: 200px;
+    border: 1px solid darkblue;
+    border-radius: 9px;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 5px 10px;
+    box-shadow: 2px 2px grey;
+}
+
+nav li:hover{
+    background-color: darkblue;
+    color: whitesmoke;
+    box-shadow: 2px 2px grey;
+}
