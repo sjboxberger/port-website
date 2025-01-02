@@ -48,7 +48,8 @@ nav li:hover{
 nav li:active{
     box-shadow: 1px 1px whitesmoke;
     background-color: black;
-    color: whitesmoke
+    color: whitesmoke;
+    transition: none;
 }
 
 .welcome{
