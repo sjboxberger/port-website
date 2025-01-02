@@ -1,24 +1,113 @@
+
+*{
+    font-family: Garamond;
+}
+body{
+    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 900px;
+}
+
 header{
     position: sticky;
     text-align: center;
-    border-bottom: 5px solid darkblue;
-    background-color: whitesmoke;
-    box-shadow: 2px 2px;
+    background-color: hsl(0,0%,30%);
+    padding: 1px;
+    top: 0;
+    left: 0;
+    min-width: 900px;
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+header h1{
+    color: whitesmoke;
+    font-size: 35px;
+    margin: 0 auto;
+    letter-spacing: 2px;
 }
 
 nav li{
+    align-items: center;
     display: inline-block;
-    width: 200px;
-    border: 1px solid darkblue;
+    width: 22%;
+    color: hsl(0,0%,30%);
+    background-color: whitesmoke;
+    padding: 5px;
     border-radius: 9px;
-    padding: 5px 5px;
     text-align: center;
-    margin: 5px 10px;
-    box-shadow: 2px 2px grey;
+    margin: 3px 5px;
+    font-size: 23px;
+    box-shadow: 2px 2px black;
 }
 
 nav li:hover{
-    background-color: darkblue;
+    background-color: hsl(0,0%,80%);
+    color: black;
+    transition: background-color 0.4s;
+}
+
+nav li:active{
+    box-shadow: 1px 1px whitesmoke;
+    background-color: black;
     color: whitesmoke;
-    box-shadow: 2px 2px grey;
+    transition: none;
+}
+
+/*Styling Project selection pane(s) */
+.bio{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bio img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0px 15px auto;
+}
+
+.bio h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bio p{
+    font-size: 20px;
+}
+
+.ed-exp-cross{
+    margin-top: 20px;
+    background-color: hsl(0,0%,30%);
+    width:100%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 3px;
+}
+
+/*Footer Adjustments*/
+footer {
+    z-index: 9;
+    background-color: whitesmoke;
+    border-top: 7px solid hsl(0,0%,30%);
+    color: hsl(0,0%,30%);
+    text-align: center;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img{
+    display: inline-block;
+    z-index: 10;
+    height: 40px;
+    width: auto;
+    margin: 12px;
 }
