@@ -1,0 +1,29 @@
+.parent{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.child{
+    background-color: lightblue;
+    padding: 20px;
+    height: 250px;
+    margin: 10px;
+    min-height: 250px;
+}
+#one{
+    background-color: lightpink;
+    flex-basis: 150px;
+}
+
+#one img{
+    max-height: 100%;
+    width:auto;
+    border-radius: 25px;
+}
+
+#two{
+    background-color: lightseagreen;
+    flex-basis: 45%;
+}
