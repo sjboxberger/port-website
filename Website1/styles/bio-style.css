@@ -1,4 +1,3 @@
-
 *{
     font-family: Garamond;
 }
@@ -82,13 +81,33 @@ nav li:active{
     font-size: 20px;
 }
 
-.ed-exp-cross{
+.cross{
     margin-top: 20px;
     background-color: hsl(0,0%,30%);
     width:100%;
     text-align: center;
     color: whitesmoke;
     padding: 3px;
+}
+
+.work-exp-grid{
+    display:grid;
+    width: 100%;
+    height: 600px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    border: 1px solid black;
+    margin: 10px;
+    grid-gap: 10px;
+}
+
+.exp-logo{
+    border: 1px solid hsl(0,0%,30%);
+    background-color: white;
+}
+
+.work-exp-grid img{
+    max-width: 250px;
+    height: auto;
 }
 
 /*Footer Adjustments*/
